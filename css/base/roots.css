@@ -1,0 +1,12 @@
+:root {
+  --clr-Primary: hsl(172, 67%, 45%);
+  --clr-neutral-900: hsl(183, 100%, 15%);
+  --clr-neutral-800: hsl(186, 14%, 43%);
+  --clr-neutral-700: hsl(184, 14%, 56%);
+  --clr-neutral-600: hsl(185, 41%, 84%);
+  --clr-neutral-500: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+  --fs-900: 1.5rem;
+  --fs-400: 16px;
+}
+/*# sourceMappingURL=roots.css.map */

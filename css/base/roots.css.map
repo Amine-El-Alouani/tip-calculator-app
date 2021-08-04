@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EAID,aAAa,CAAA,mBAAC;EAId,iBAAiB,CAAA,oBAAC;EAClB,iBAAiB,CAAA,mBAAC;EAClB,iBAAiB,CAAA,mBAAC;EAClB,iBAAiB,CAAA,mBAAC;EAClB,iBAAiB,CAAA,mBAAC;EAClB,OAAO,CAAA,iBAAC;EAIR,QAAQ,CAAA,OAAC;EACT,QAAQ,CAAA,KAAC;CACZ",
+    "sources": [
+        "roots.scss"
+    ],
+    "names": [],
+    "file": "roots.css"
+}

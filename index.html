@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tip Calculator App</title>
+  </head>
+  <body>
+    <div class="main">
+      <img src="/images/logo.svg" alt="" class="logo" />
+      <div class="container">
+        <div class="left">
+          <div class="bill">
+            <h5>Bill</h5>
+            <input type="text" class="bill-inp" placeholder="0" />
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <div class="tip-perc">
+            <h5>Select Tip %</h5>
+            <div class="percs">
+              <button class="btn btn-active">5%</button>
+              <button class="btn">10%</button>
+              <button class="btn">15%</button>
+              <button class="btn">25%</button>
+              <button class="btn">50%</button>
+              <input type="text" placeholder="Custom" class="custom" />
+            </div>
+          </div>
+          <div class="num-people">
+            <h5>Number of People</h5>
+            <p class="msg">can't be zero</p>
+            <input type="text" class="num-inp" value="1" placeholder="0" />
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+        <div class="right">
+          <div class="nums-showcase">
+            <div class="tip-amount">
+              <div class="text">
+                <p>Tip Amount</p>
+                <span>/ person</span>
+              </div>
+              <p class="result">$0.00</p>
+            </div>
+            <div class="total">
+              <div class="text">
+                <p>Total</p>
+                <span>/ person</span>
+              </div>
+              <p class="result">$0.00</p>
+            </div>
+          </div>
+          <button class="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

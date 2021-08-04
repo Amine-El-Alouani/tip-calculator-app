@@ -1,0 +1,74 @@
+* {
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  font-size: var(--fs-400);
+  background-color: var(--clr-neutral-600);
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  @media (max-width: 48rem) {
+    height: auto;
+  }
+}
+
+.logo {
+  margin-bottom: -6.25rem;
+  @media (max-width: 48rem) {
+    justify-content: center;
+    margin-top: 2.125rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 1.5625rem;
+  background-color: var(--White);
+  border-radius: 0.9375rem;
+  width: 41.5625rem;
+  height: 21.25rem;
+
+  @media (max-width: 48rem) {
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+  }
+}
+
+h5 {
+  color: var(--clr-neutral-800);
+  margin: 0.825rem 0;
+}
+
+input {
+  text-align: end;
+  font-size: var(--fs-500);
+  font-weight: 700;
+  padding: 0.3125rem 0.625rem;
+  height: 2rem;
+  border: 1px solid var(--clr-neutral-500);
+  border-radius: 0.3125rem;
+  background-color: var(--clr-neutral-500);
+
+  &:focus {
+    border: 1px solid hsl(172, 67%, 45%);
+    color: var(--clr-neutral-900);
+  }
+}
+
+.result {
+  font-size: var(--fs-900);
+  font-weight: 700;
+  color: var(--clr-Primary);
+}
